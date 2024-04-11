@@ -6,11 +6,9 @@
 .seccion_inicio {
     background-color: #D9D9D9;
     height: 100vh;
-    width: 84vw;
     padding: 0 8vw;
     color: #6E6E6E;
 }
-
 .seccion_inicio .cabecera {
     display: flex;
     justify-content: space-between;
@@ -84,5 +82,40 @@
     margin-top: 13vh;
     margin-right: 40px;
 }
+.temporal {
+    height: 10vh;
+}
+.pie{
+    background-color: #D9D9D9;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.pie ul {
+    display: flex;
+    gap: 40px;
+}
+.pie ul li{
+    list-style: none;
+}
+.pie ul li a{
+    font-size:24px;
+    font-weight: 400;
+    color: #6E6E6E;
+    text-decoration: none;
+    line-height: 29.3px;
+}
+.pie p{
+    font-size:24px;
+    font-weight: 400;
+    color: #6E6E6E;
+    text-decoration: none;
+    line-height: 29.3px;
+}
+
 
 
