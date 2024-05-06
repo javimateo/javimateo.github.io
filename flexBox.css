@@ -38,26 +38,27 @@
 }
 
 .seccion_inicio .cabecera .menu ul{
-    display: flex;
+    display: grid;
     gap: 20px;
-    align-items: end;
+    grid-template-columns: 100px 100px 190px 150px 120px;
 }
 
 .seccion_inicio .cabecera .menu ul li{
     list-style: none;
-    
 }
-
 
 .seccion_inicio .cabecera .menu ul li a{
     color: #6E6E6E;
     text-decoration: none;
     font-size: 24px;
-    line-height: 29.3px;
+    align-items: center;
+    letter-spacing: 1.9px;
 }
 
 .seccion_inicio .cabecera .menu ul li a:hover {
     color: #00b2e3;
+    font-weight: bold;
+    letter-spacing: -.2px;
 }
 
 .seccion_inicio .inicio {
@@ -98,8 +99,7 @@
 }
 
 .principal h2{
-    font-size: 96px;
-    font-weight: 700;
+    font-size: 80px;
     line-height: 117.19px;
     text-align: left;
     color: #6E6E6E;
@@ -116,9 +116,7 @@
 
 .principal p{
     color: white;
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 39.06px;
+    font-size: 18px;
     margin: 10px;
 }
 
@@ -179,21 +177,7 @@
     list-style: none;
 }
 
-.pie ul li a{
-    font-size:24px;
-    font-weight: 400;
+.pie p,a {
+    font-size:20px;
     color: #6E6E6E;
-    text-decoration: none;
-    line-height: 29.3px;
 }
-
-.pie p{
-    font-size:24px;
-    font-weight: 400;
-    color: #6E6E6E;
-    text-decoration: none;
-    line-height: 29.3px;
-}
-
-
-
